@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+	<title>Vehicle Details</title>
+</h:head>
+
+<h:body>
+	<h:form>	
+	<h1>Full Vehicle Details</h1>
+	<br/>
+	<b>Registration: </b>
+		  #{vehicleDetailsController.vehicleDetails.reg}
+	<br/>
+	<b>Manufacturer Code: </b>
+		  #{vehicleDetailsController.vehicleDetails.manu_code}
+	<br/>
+	<b>Manufacturer Name: </b>
+		  #{vehicleDetailsController.vehicleDetails.manu_name}
+	<br/>
+	<b>Model Code: </b>
+		  #{vehicleDetailsController.vehicleDetails.model_code}
+	<br/>
+	<b>Model Name: </b>
+		  #{vehicleDetailsController.vehicleDetails.model_name}
+	<br/>
+	<b>Model Description: </b>
+		  #{vehicleDetailsController.vehicleDetails.model_desc}
+	<br/>
+	<b>Mileage: </b>
+		  #{vehicleDetailsController.vehicleDetails.mileage}
+	<br/>
+	<b>Price: </b>
+		  #{vehicleDetailsController.vehicleDetails.price}
+	<br/>
+	<b>Fuel: </b>
+		  #{vehicleDetailsController.vehicleDetails.fuel}
+	<br/>
+	
+	
+		<h:link value="Home" outcome="mainPage" /><br/>
+		<h:link value="Manage Vehicles" outcome="manageVehicle" />
+	</h:form>
+</h:body>
+</html>

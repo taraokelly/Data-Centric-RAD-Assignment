@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+	<title>Update Manufacturer</title>
+
+</h:head>
+
+<h:body>
+	<h:messages globalOnly="true" style="color: red"/>
+	<h1>Update Manufacturer</h1>
+	<br/>
+	<h:form>
+	Code: <h:inputText value="#{manufacturerController.temp.manu_code}" id="manuCode" disabled="true" required="true" requiredMessage="Manufacturer code is mandatory"
+			p:placeholder="E.g. FOR">
+			</h:inputText>
+			<h:message for="manuCode" display="text" style="color:red;margin:8px;"></h:message>
+			<br />
+		<br />
+	Name: <h:inputText value="#{manufacturerController.temp.manu_name}" id="manuName" required="true" requiredMessage="Manufacturer name is mandatory"
+			p:placeholder="E.g. Ford">
+			</h:inputText>
+			<h:message for="manuName" display="text" style="color:red;margin:8px;"></h:message>
+		<br />
+		<br />
+	Details: <h:inputText value="#{manufacturerController.temp.manu_details}" id="manuDetails" required="true" requiredMessage="Manufacturer details is mandatory">
+			 </h:inputText>
+			 <h:message for="manuDetails" display="text" style="color:red;margin:8px;"></h:message>
+		<br />
+		<br />
+		<h:commandButton value="Update Manufacturer"
+			action="#{manufacturerController.updateManufacturer(manufacturerController.temp)}" id="add" /> 
+		<br/>
+		<h:link value="Home" outcome="mainPage" />	
+		<br/>
+		<h:link value="Manufacturers" outcome="manageManufacturer" />	
+		
+	</h:form>
+</h:body>
+</html>
