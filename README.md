@@ -14,13 +14,54 @@ The assignment uses the Model-View-Controller(MVC) design/architectural pattern.
 
 The architecture of the views was pre-defined in the project description:
 
-* `Main Page`:
+* **Main Page**:
   * Link to the *Manage Manufacturers* page.
   * Link to the *Manage Models* page.
   * Link to the *Manage Vehicles* page.
-  * Link to the *Find Cars* page. 
-* `Manage Manufacturers Page`:
+  * Link to the *Find Cars/Find All Vehicles Page* page. 
+* **Manage Manufacturers Page**:
   * Display details of all manufacturers.
   * *Add Manufacturer* button, that acts as a link.
   * *Update* and *Delete* actions for each manufacturer displayed.
-  * Link back the the *Main* page.
+  * Link back to the *Main* page.
+* **Manage Models Page**:
+  * Displays details of all models.
+  * *Add Model* button, that acts as a link.
+  * Link back o the *Main* page.
+* **Manage Vehicles Page**:
+  * Displays details of all vehicles.
+  * *Add Vehicle* button, that acts as a link.
+  * *All Details* button, to show that paricular vehicle in another view.
+  * Link back to the *Main Page*.
+* **Full Vehicle Details Page**:
+  * Displays all details of the particular vehicle.
+  * Link back to the *Main* page.
+  * Link back to the *Vehicles* page.
+* **Find All Vehicles Page**:
+  * Link back to the *Main* page.
+  * Search functionality using any number of the following criteria: Price, Colour and Fuel.
+* **Search Results**:
+  * Displays search results data.
+  * Links back to *Find Cars* and *Main* pages.
+* **Add Manufacturer Page**:
+  * Gets user input and manages errors.
+  * Submit button.
+  * Links back to the *Manage Manufacturers* and *Main* pages.
+* **Add Model Page**:
+  * Gets user input and manages errors.
+  * Submit button.
+  * Links back to the *Manage Models* and *Main* pages.
+* **Add Vehicle Page**:
+  * Gets user input and manages errors.
+  * Submit button.
+  * Links back to the *Manage Vehicles* and *Main* pages.
+* **Update Manufacturer Page**:
+  * Gets user input and manages errors.
+  * Submit button.
+  * Links back to the *Manage Manufacturers* and *Main* pages.
+
+The "garage" database was also provided.
+
+-----
+
+__*Tara O'Kelly - G00322214@gmit.ie*__ 
