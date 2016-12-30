@@ -62,7 +62,7 @@ The architecture of the views was pre-defined in the project description:
 
 The "garage" database was also provided.
 
-**Technologies**
+**Technologies:**
 
 * WAMP Server
 * Eclipse Java EE IDE
