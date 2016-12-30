@@ -62,6 +62,23 @@ The architecture of the views was pre-defined in the project description:
 
 The "garage" database was also provided.
 
+**Technologies**
+
+* WAMP Server
+* Eclipse Java EE IDE
+* MySQL Connector/J 5.1.40
+* Apache Tomcat
+
+**References:**
+
+[WAMP](http://www.wampserver.com/en/)
+
+[Eclipse Java EE IDE](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2)
+
+[MySQL Connector/J 5.1.40](https://dev.mysql.com/downloads/connector/j/)
+
+[Apache Tomcat](https://tomcat.apache.org/download-90.cgi)
+
 -----
 
 __*Tara O'Kelly - G00322214@gmit.ie*__ 
